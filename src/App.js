@@ -3,6 +3,7 @@ import MyButton from './Components/MyButton';
 import AboutPage from './Components/AboutPage';
 import Profile from './Components/Profile';
 import ShoppingList from './Components/ShoppingList';
+import MyApp from './Components/MyApp';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Profile/>
       <ShoppingList/>
       <MyButton/>
+      <MyApp/>
     </div>
   );
 }
