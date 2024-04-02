@@ -5,6 +5,7 @@ import Profile from './Components/Profile';
 import ShoppingList from './Components/ShoppingList';
 import Heading from './Components/Heading';
 import Section from './Components/Section';
+import Stopwatch from './Components/Stopwatch';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
           </Section>
         </Section>
       </Section>
+      <Stopwatch/>
     </div>
   );
 }
